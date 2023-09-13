@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("solar.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 45px;
+     padding-left: 8%;
+     padding-right: 8%;
+}
+.logo{
+
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: yellow;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    background-color: #333; 
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: yellow;
+    transition: .4s;
+   
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
